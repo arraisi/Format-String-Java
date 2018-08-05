@@ -11,8 +11,6 @@ public class FormatString
         String result = "";
 
         Integer i = 1 ;
-        Integer resultLength = S.length() + (S.length()/3);
-
 
         for (char caddyFor : caddyString) {
             if (i%3 == 0 && i != S.length()) {
@@ -22,7 +20,6 @@ public class FormatString
             }
             i++;
         }
-
         System.out.println("Index : " + i + " value " + result);
     }
 }
